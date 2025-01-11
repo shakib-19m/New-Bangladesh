@@ -285,6 +285,7 @@ body {
     width: 40%;
     border-radius: 8px;
     margin-right: 20px;
+    
 }
 
 .news-content {
@@ -298,7 +299,7 @@ body {
 }
 
 .news-content .meta {
-    display: flex;
+    size: 50px;
     align-items: center;
     margin-bottom: 10px;
     font-size: 14px;
@@ -306,8 +307,9 @@ body {
 }
 
 .news-content .meta img {
-    width: 20px;
-    margin-right: 10px;
+    width: 50px;
+    margin-right: 50px;
+    line-break:normal;
 }
 
 .news-content p {
