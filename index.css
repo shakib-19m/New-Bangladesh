@@ -341,3 +341,117 @@ body {
         margin: 0 0 20px;
     }
 }
+
+/* Donate Section */
+.donate-section, .subscribe-section {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donate-section h1, .subscribe-section h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .donate-section p, .subscribe-section p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0 20px;
+    line-height: 1.6;
+  }
+  
+  .donation-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .donation-button {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #f8f8f8;
+    border-radius: 4px;
+    background-color: white;
+    color: #4b4b4b;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .donation-button.active {
+    background-color: #c9ecd3;
+    border-color: #a5d3b4;
+  }
+  
+  .donation-button:hover {
+    background-color: #eef8ef;
+  }
+  
+  .custom-amount {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #e9e8e8;
+    border-radius: 4px;
+  }
+  
+  .donate-now {
+    padding: 10px 20px;
+    background-color: #029254;
+    color: rgb(247, 244, 244);
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .donate-now:hover {
+    background-color: #027e48;
+  }
+  
+  .subscribe-section {
+    background-color: #def7e1;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .email-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .subscribe-button {
+    padding: 10px 20px;
+    background-color: #02a35e;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .subscribe-button:hover {
+    background-color: #005b34;
+  }
+  
+  .no-spam {
+    font-size: 12px;
+    color: #777;
+  }
